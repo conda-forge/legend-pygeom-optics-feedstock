@@ -13,14 +13,14 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
   entry_points:
     - legend-pygeom-optics = legendoptics.cli:optics_cli
 
 requirements:
   host:
     - python {{ python_min }}
-    - setuptools >=61.2
+    - setuptools >=77
     - setuptools-scm >=7
     - pip
   run:
