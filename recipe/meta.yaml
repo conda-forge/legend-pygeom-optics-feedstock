@@ -1,5 +1,5 @@
 {% set name = "legend-pygeom-optics" %}
-{% set version = "0.15.1" %}
+{% set version = "0.15.2" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/legend_pygeom_optics-{{ version }}.tar.gz
-  sha256: 740ec1e8886551e35f9fe5ec418aeea913ac9981351c04ccbf7e224b084b0994
+  sha256: 7a89d11ec03cb84da945521c86c95e78d1b8abbb6b182331b609b1fe2c864fb4
 
 build:
   noarch: python
