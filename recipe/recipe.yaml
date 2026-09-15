@@ -43,6 +43,7 @@ tests:
         - legendoptics
         - pygeomoptics
       pip_check: true
+      python_version:
         - ${{ python_min }}.*
         - "*"
 
