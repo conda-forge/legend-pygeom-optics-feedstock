@@ -43,7 +43,8 @@ tests:
         - legendoptics
         - pygeomoptics
       pip_check: true
-      python_version: ${{ python_min }}
+        - ${{ python_min }}.*
+        - "*"
 
 about:
   summary: Optical properties of the LEGEND experiment
