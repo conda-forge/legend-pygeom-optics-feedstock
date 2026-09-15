@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: legend-pygeom-optics
-  version: "0.17.2"
+  version: "0.18.0"
   python_min: "3.11"
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/legend_pygeom_optics-${{ version }}.tar.gz
-  sha256: 9c0669f326731098be09fcf7878da8447260f6a7b1bfccfe9f55a2057d45b959
+  sha256: 425360635b6f2ecfa9a1de40cba96536fe764ab3d276ea9fe4e3ab1f0bff3d3b
 
 build:
   number: 0
